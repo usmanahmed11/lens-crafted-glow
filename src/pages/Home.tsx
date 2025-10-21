@@ -25,7 +25,7 @@ const Home = () => {
             <div className="text-center md:text-left animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">
                 See the World
-                <span className="block gradient-accent bg-clip-text text-transparent">
+                <span className="block gradient-text">
                   Differently
                 </span>
               </h1>
@@ -102,7 +102,7 @@ const Home = () => {
             <div className="order-1 md:order-2 animate-fade-in">
               <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
                 Crafted with
-                <span className="block gradient-accent bg-clip-text text-transparent">
+                <span className="block gradient-text">
                   Precision
                 </span>
               </h2>

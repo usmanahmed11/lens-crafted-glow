@@ -127,7 +127,7 @@ const About = () => {
                 key={index}
                 className="bg-card p-8 rounded-2xl shadow-elegant transition-smooth hover:shadow-glow"
               >
-                <div className="text-5xl font-serif font-bold gradient-accent bg-clip-text text-transparent mb-4">
+                <div className="text-5xl font-serif font-bold gradient-text mb-4">
                   {step.number}
                 </div>
                 <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
@@ -181,7 +181,7 @@ const About = () => {
             <Button size="lg" variant="secondary" className="text-lg px-8 shadow-glow">
               Find a Store
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+            <Button size="lg" variant="outline" className="text-lg px-8 border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground/10 hover:text-primary">
               Contact Us
             </Button>
           </div>
